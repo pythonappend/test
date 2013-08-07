@@ -1,11 +1,2 @@
-a=1
-b='10'
-c=3.14
-
-d=str(a)
-e=float(b)
-f=int(c)
-
-print(d)
-print(e)
-print(f)
+s=input('add a number: ')
+print('you choose number ',s)
