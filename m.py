@@ -5,3 +5,7 @@ c=3.14
 d=str(a)
 e=float(b)
 f=int(c)
+
+print(d)
+print(e)
+print(f)
