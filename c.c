@@ -5,5 +5,5 @@ main()
   float b=3.14;
   float c=a+b;
   
-  printf("%f",c);
+  printf("%f\n",c);
 }
