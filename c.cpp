@@ -1,4 +1,4 @@
-#include <iostream>
+#include <iostream.h>
 int main()
 {
   int a,b,c;
