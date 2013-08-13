@@ -6,9 +6,9 @@ int main()
   int b;
   int c;
   
-  cout << "a: " << endl;
+  cout << "a: ";
   cin >> a;
-  cout << "b: " << endl;
+  cout << "b: ";
   cin >> b;
   
   c = a + b;
