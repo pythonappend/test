@@ -2,16 +2,23 @@
 using namespace std;
 int main()
 {
-  int a,b,c;
+  int a;
+  int b;
+  int c;
   
-  cout << "first number: ";
+  cout << "a: " << endl;
   cin >> a;
-  cout << "second number: ";
+  cout << "b: " << endl;
   cin >> b;
   
   c = a + b;
   
-  cout << "Result is " << c << endl;
+  if (c > 9)
+    cout << "c is bigger then 9" << endl;
+  else if (c < 9)
+    cout << "c is less then 9" << endl;
+  else
+    cout << "c is 9" << endl;
   
   return 0;
 
